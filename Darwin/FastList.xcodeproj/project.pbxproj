@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1874892ADBF36B003CF617 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1874882ADBF36B003CF617 /* Series.swift */; };
 		FCE029F72AD3B2E60089D045 /* FastListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE029F62AD3B2E60089D045 /* FastListApp.swift */; };
 		FCE029F92AD3B2E60089D045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE029F82AD3B2E60089D045 /* ContentView.swift */; };
 		FCE029FD2AD3B2E70089D045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE029FC2AD3B2E70089D045 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC1874882ADBF36B003CF617 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		FCE029F32AD3B2E60089D045 /* FastList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE029F62AD3B2E60089D045 /* FastListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastListApp.swift; sourceTree = "<group>"; };
 		FCE029F82AD3B2E60089D045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		FCE02A082AD3B79D0089D045 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC1874882ADBF36B003CF617 /* Series.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1874892ADBF36B003CF617 /* Series.swift in Sources */,
 				FCE029F92AD3B2E60089D045 /* ContentView.swift in Sources */,
 				FCE029F72AD3B2E60089D045 /* FastListApp.swift in Sources */,
 				FCE02A272AD83CD10089D045 /* Login.swift in Sources */,
