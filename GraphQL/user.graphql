@@ -1,0 +1,29 @@
+query User {
+  user: Viewer {
+    id
+  }
+}
+
+query UsersList($id: Int) {
+  Page(page: 0, perPage: 500) {
+    mediaList(userId: $id, type: ANIME, status: CURRENT) {
+      id
+      progress
+      media {
+        id
+        title {
+          userPreferred
+        }
+        coverImage {
+          medium
+          color
+        }
+        episodes
+        nextAiringEpisode {
+          airingAt
+        }
+        status(version: 2)
+      }
+    }
+  }
+}

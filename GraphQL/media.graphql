@@ -1,0 +1,40 @@
+query all {
+  Page(page: 0, perPage: 10) {
+    media(type: ANIME, status: RELEASING) {
+      id
+      coverImage {
+        large
+        medium
+        color
+      }
+      title {
+        userPreferred
+      }
+
+      episodes
+      nextAiringEpisode {
+        airingAt
+      }
+    }
+  }
+}
+
+query some($page: Int!) {
+  Page(page: $page, perPage: 10) {
+    media(type: ANIME, status: RELEASING) {
+      id
+      coverImage {
+        medium
+        color
+      }
+      title {
+        userPreferred
+      }
+
+      episodes
+      nextAiringEpisode {
+        airingAt
+      }
+    }
+  }
+}
