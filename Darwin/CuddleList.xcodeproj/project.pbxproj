@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		FC1874882ADBF36B003CF617 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
-		FCE029F32AD3B2E60089D045 /* FastList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE029F32AD3B2E60089D045 /* CuddleList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuddleList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE029F62AD3B2E60089D045 /* FastListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastListApp.swift; sourceTree = "<group>"; };
 		FCE029F82AD3B2E60089D045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCE029FC2AD3B2E70089D045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,9 +55,9 @@
 		FCE029EA2AD3B2E60089D045 = {
 			isa = PBXGroup;
 			children = (
+				FCF3C72D2ADBF6E700A6AF89 /* CuddleList */,
 				FCE02A082AD3B79D0089D045 /* Model */,
 				FCE02A0C2AD3BC770089D045 /* Observations */,
-				FCE029F52AD3B2E60089D045 /* FastList */,
 				FCE029F42AD3B2E60089D045 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,23 +65,9 @@
 		FCE029F42AD3B2E60089D045 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCE029F32AD3B2E60089D045 /* FastList.app */,
+				FCE029F32AD3B2E60089D045 /* CuddleList.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FCE029F52AD3B2E60089D045 /* FastList */ = {
-			isa = PBXGroup;
-			children = (
-				FCE02A252AD83CC40089D045 /* User */,
-				FCE029F62AD3B2E60089D045 /* FastListApp.swift */,
-				FCE029F82AD3B2E60089D045 /* ContentView.swift */,
-				FCE029FC2AD3B2E70089D045 /* Assets.xcassets */,
-				FCE02A012AD3B2E70089D045 /* FastList.entitlements */,
-				FCE02A022AD3B2E70089D045 /* Info.plist */,
-				FCE029FE2AD3B2E70089D045 /* Preview Content */,
-			);
-			path = FastList;
 			sourceTree = "<group>";
 		};
 		FCE029FE2AD3B2E70089D045 /* Preview Content */ = {
@@ -117,12 +103,26 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		FCF3C72D2ADBF6E700A6AF89 /* CuddleList */ = {
+			isa = PBXGroup;
+			children = (
+				FCE02A252AD83CC40089D045 /* User */,
+				FCE029F62AD3B2E60089D045 /* FastListApp.swift */,
+				FCE029F82AD3B2E60089D045 /* ContentView.swift */,
+				FCE029FC2AD3B2E70089D045 /* Assets.xcassets */,
+				FCE02A012AD3B2E70089D045 /* FastList.entitlements */,
+				FCE02A022AD3B2E70089D045 /* Info.plist */,
+				FCE029FE2AD3B2E70089D045 /* Preview Content */,
+			);
+			path = CuddleList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCE029F22AD3B2E60089D045 /* FastList */ = {
+		FCE029F22AD3B2E60089D045 /* CuddleList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCE02A052AD3B2E70089D045 /* Build configuration list for PBXNativeTarget "FastList" */;
+			buildConfigurationList = FCE02A052AD3B2E70089D045 /* Build configuration list for PBXNativeTarget "CuddleList" */;
 			buildPhases = (
 				FCE029EF2AD3B2E60089D045 /* Sources */,
 				FCE029F02AD3B2E60089D045 /* Frameworks */,
@@ -132,7 +132,7 @@
 			);
 			dependencies = (
 			);
-			name = FastList;
+			name = CuddleList;
 			packageProductDependencies = (
 				FCE02A0A2AD3B9190089D045 /* Apollo */,
 				FCE02A192AD481F20089D045 /* Anilist */,
@@ -141,7 +141,7 @@
 				FCE02A292AD851840089D045 /* KeychainAccess */,
 			);
 			productName = FastList;
-			productReference = FCE029F32AD3B2E60089D045 /* FastList.app */;
+			productReference = FCE029F32AD3B2E60089D045 /* CuddleList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FCE029EE2AD3B2E60089D045 /* Build configuration list for PBXProject "FastList" */;
+			buildConfigurationList = FCE029EE2AD3B2E60089D045 /* Build configuration list for PBXProject "CuddleList" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCE029F22AD3B2E60089D045 /* FastList */,
+				FCE029F22AD3B2E60089D045 /* CuddleList */,
 			);
 		};
 /* End PBXProject section */
@@ -396,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCE029EE2AD3B2E60089D045 /* Build configuration list for PBXProject "FastList" */ = {
+		FCE029EE2AD3B2E60089D045 /* Build configuration list for PBXProject "CuddleList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCE02A032AD3B2E70089D045 /* Debug */,
@@ -405,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCE02A052AD3B2E70089D045 /* Build configuration list for PBXNativeTarget "FastList" */ = {
+		FCE02A052AD3B2E70089D045 /* Build configuration list for PBXNativeTarget "CuddleList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCE02A062AD3B2E70089D045 /* Debug */,
